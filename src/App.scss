@@ -1,0 +1,20 @@
+@import "../src/styles/Header.scss";
+@import "../src/styles/Hero.scss";
+@import "../src/styles/AddProducts.scss";
+@import "../src/styles/Products.scss";
+@import "../src/styles/Basket.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

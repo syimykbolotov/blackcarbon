@@ -1,0 +1,116 @@
+#basket {
+  padding: 30px 0;
+  .basket {
+    &--block {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      &__pro {
+        position: relative;
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+        display: flex;
+        border-radius: 14px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        border: 2px solid red;
+        h5 {
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          font-size: 43px;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        &--price {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          &__right {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            h3 {
+              font-size: 23px;
+            }
+            button {
+              border: 1px solid black;
+              padding: 2px 12px;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+    &--about {
+      padding: 50px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      input {
+        padding: 20px 450px 90px 20px;
+        border-radius: 24px;
+        border: 2px solid red;
+      }
+      &__in {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        bottom: 65px;
+        left: 440px;
+        button {
+          //   width: 80px;
+          border-radius: 25px;
+          color: white;
+          background: #000;
+          text-align: center;
+          padding: 2px 20px;
+        }
+      }
+      &__buy {
+        width: 400px;
+        height: 135px;
+        border-radius: 24px;
+        background: #000;
+        color: white;
+        position: relative;
+        &--text {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          padding: 40px 0;
+        }
+
+        button {
+          border-radius: 25px;
+          color: white;
+          background: #747474;
+          text-align: center;
+          padding: 2px 20px;
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+        }
+      }
+    }
+    &--btns {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      button {
+        padding: 12px 24px;
+        background: #000;
+        border-radius: 24px;
+        color: white;
+      }
+    }
+  }
+}
